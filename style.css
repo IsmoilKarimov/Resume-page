@@ -1,0 +1,344 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    height: 100vh;
+    background-image: url('./assets/images/pict.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    position: relative;
+    font-family: sans-serif;
+}
+.resume_page {
+    width: 700px;
+    height: 97vh;
+    background-color: #fff;
+    left: 0;
+    right: 0;
+    top: .5rem;
+    margin: auto;
+    position: absolute;
+    box-shadow: -20px 20px 25px 0px rgb(0 0 0 / 50%);
+    display: flex;
+}
+ /* ASIDE */
+aside {
+    flex-basis: 230px;
+    max-width: 230px;
+    width: 230px;
+    height: 100%;
+    background-color: #445c73;
+    padding-left: 15px;
+}
+aside .img {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    background-image: url(./assets/images/my_pict.jpg);
+    background-position: 140px 130px;
+    background-size: cover;
+    margin-top: 20px;
+    margin-left: 35px;
+}
+.fullname {
+    position: absolute;
+    top: 1.5rem;
+    left: 15.2rem;
+    background-color: #375f85;
+    width: 472px;
+    height: 80px;
+    color: #fff;
+    letter-spacing: 2px;
+    font-size: 27px;
+    padding: 10px;
+    padding-left: 45px;
+    box-shadow: 2px -5px 10px -5px rgb(0 0 0 / 50%);
+}
+.profession {
+    position: absolute;
+    top: 3.4rem;
+    left: 21rem;
+    width: 505px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    color: #fff;
+    letter-spacing: 2px;
+    font-size: 20px;
+    padding: 10px;
+    padding-left: 70px;
+}
+aside h5 {
+    color: #ffffffbd;
+    padding-top: 10px;
+    font-size: 14px;
+    letter-spacing: 1.5px;
+}
+aside h4 {
+    color: #ffffffbd;
+    padding-top: 10px;
+    font-size: 14px;
+    letter-spacing: 1.5px;
+    padding-bottom: 10px;
+}
+
+aside .bottom {
+    border-bottom: 3px solid #d9d9d9;
+}
+.personal {
+    padding: 10px 6px 10px 0px;
+    color: #fff;
+    letter-spacing: 1px;
+    font-size: 12px;
+}
+.personal .d-flex {
+    display: flex;
+}
+.personal .d-flex  p {
+    font-size: 11px;
+}
+
+.personal .d-flex:last-child {
+    padding-bottom: 7px;
+    border-bottom: 2px solid #d9d9d9;
+}
+.personal .d-flex span {
+    margin-right: 51px;
+    margin-bottom: 5px;
+}
+.personal .d-flex:nth-child(2) span{
+    margin-right: 24px;
+}
+.personal .d-flex:nth-child(3) span{
+    margin-right: 39px;
+}
+.personal .d-flex:nth-child(4) span{
+    margin-right: 26px;
+}
+.personal .d-flex:nth-child(5) span{
+    margin-right: 45px;
+}
+
+.contact {
+    padding: 10px 6px 10px 0px;
+    color: #fff;
+    letter-spacing: 1px;
+    font-size: 12px;
+}
+.contact .d-flex {
+    display: flex;
+}
+.contact .d-flex p{
+    font-size: 11px;
+    align-items: center;
+    padding-top: 2px;
+}
+
+.contact .d-flex:last-child {
+    padding-bottom: 7px;
+    border-bottom: 2px solid #d9d9d9;
+}
+.contact .d-flex span {
+    margin-right: 50px;
+    margin-bottom: 5px;
+}
+.contact .d-flex:nth-child(2) span{
+    margin-right: 31px;
+}
+.contact .d-flex:nth-child(3) span{
+    margin-right: 56px;
+}
+.contact .d-flex:nth-child(4) span{
+    margin-right: 37px;
+}
+.contact .d-flex:nth-child(5) span{
+    margin-right: 13px;
+}
+
+/* 1 */
+.blog {
+    padding: 8px 6px 8px 0px;
+    color: #fff;
+    letter-spacing: 1px;
+    font-size: 12px;
+}
+.blog .percent {
+    width: 200px;
+    height: 5px;
+    margin-top: 5px;
+    background-color: #fff;
+    position: relative;
+}
+.blog .percent::before {
+    content: '';
+    position: absolute;
+    width: 150px;
+    height: 5px;
+    background-color: #53d9a7;
+}
+
+/* 2 */
+.blog2 {
+    padding: 8px 6px 8px 0px;
+    color: #fff;
+    letter-spacing: 1px;
+    font-size: 12px;
+}
+.blog2 .percent {
+    width: 200px;
+    height: 5px;
+    margin-top: 5px;
+    background-color: #fff;
+    position: relative;
+}
+.blog2 .percent::before {
+    content: '';
+    position: absolute;
+    width: 130px;
+    height: 5px;
+    background-color: #53d9a7;
+}
+
+/* 3 */
+.blog3 {
+    padding: 8px 6px 8px 0px;
+    color: #fff;
+    letter-spacing: 1px;
+    font-size: 12px;
+}
+.blog3 .percent {
+    width: 200px;
+    height: 5px;
+    margin-top: 5px;
+    background-color: #fff;
+    position: relative;
+}
+.blog3 .percent::before {
+    content: '';
+    position: absolute;
+    width: 140px;
+    height: 5px;
+    background-color: #53d9a7;
+}
+
+/* 4 */
+.blog4 {
+    padding: 8px 6px 8px 0px;
+    color: #fff;
+    letter-spacing: 1px;
+    font-size: 12px;
+}
+.blog4 .percent {
+    width: 200px;
+    height: 5px;
+    margin-top: 5px;
+    background-color: #fff;
+    position: relative;
+}
+.blog4 .percent::before {
+    content: '';
+    position: absolute;
+    width: 140px;
+    height: 5px;
+    background-color: #53d9a7;
+}
+
+/* 5 */
+.blog5 {
+    padding: 8px 6px 8px 0px;
+    color: #fff;
+    letter-spacing: 1px;
+    font-size: 12px;
+}
+.blog5 .percent {
+    width: 200px;
+    height: 5px;
+    margin-top: 5px;
+    background-color: #fff;
+    position: relative;
+}
+.blog5 .percent::before {
+    content: '';
+    position: absolute;
+    width: 140px;
+    height: 5px;
+    background-color: #53d9a7;
+}
+
+/* 6 */
+.blog6 {
+    padding: 8px 6px 8px 0px;
+    color: #fff;
+    letter-spacing: 1px;
+    font-size: 12px;
+}
+.blog6 .percent {
+    width: 200px;
+    height: 5px;
+    margin-top: 5px;
+    background-color: #fff;
+    position: relative;
+}
+.blog6 .percent::before {
+    content: '';
+    position: absolute;
+    width: 120px;
+    height: 5px;
+    background-color: #53d9a7;
+}
+
+/* 7 */
+.blog7 {
+    padding: 8px 6px 8px 0px;
+    color: #fff;
+    letter-spacing: 1px;
+    font-size: 12px;
+}
+.blog7 .percent {
+    width: 200px;
+    height: 5px;
+    margin-top: 5px;
+    background-color: #fff;
+    position: relative;
+}
+.blog7 .percent::before {
+    content: '';
+    position: absolute;
+    width: 130px;
+    height: 5px;
+    background-color: #53d9a7;
+}
+
+/* 8 */
+.blog8 {
+    padding: 8px 6px 8px 0px;
+    color: #fff;
+    letter-spacing: 1px;
+    font-size: 12px;
+}
+.blog8 .percent {
+    width: 200px;
+    height: 5px;
+    margin-top: 5px;
+    background-color: #fff;
+    position: relative;
+}
+.blog8 .percent::before {
+    content: '';
+    position: absolute;
+    width: 120px;
+    height: 5px;
+    background-color: #53d9a7;
+}
+
+main {
+    flex-basis: calc(100% - 230px);
+    max-width: calc(100% - 230px);
+    width: calc(100% - 230px);
+    height: 97vh;
+    overflow: hidden;
+    background-color: #d9d9d9;
+}
